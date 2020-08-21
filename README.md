@@ -1,5 +1,5 @@
 # nginx-layer4-lb
-Nginx Setup for Layer 4 Load Balancer and avoid TLS offloading.
+Nginx Setup for Layer 4 (Transport Layer) Load Balancer and avoid TLS offloading.
 
 ## Advantage of using Layer 4 Load Balancer
 - A single TCP connection end-to-end - from client to backend server
