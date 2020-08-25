@@ -3,7 +3,7 @@ Nginx Setup for Layer 4 (Transport Layer) Load Balancer and avoid TLS offloading
 
 ## Advantage of using Layer 4 Load Balancer
 - A single TCP connection end-to-end - from client to backend server
-- No TLS certificating offloading - this is important when server needs to authenticate a client using `X.509` certificate and extract user information from `CN` section.
+- No SSL offloading - this is important when server needs to authenticate a client using `X.509` certificate and extract user information from `CN` section.
 - Capture the requst/response payload size for each request
 
 ## Limitations
